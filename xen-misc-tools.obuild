@@ -1,0 +1,9 @@
+name: xen-misc-tools
+version: 0.1.0
+synopsis: Miscellaneous xen-related helper programs
+obuild-ver: 1
+
+executable fence
+  src-dir: src
+  main: fence.ml
+  build-deps: xenctrl
