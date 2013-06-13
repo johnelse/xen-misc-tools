@@ -3,6 +3,11 @@ version: 0.1.0
 synopsis: Miscellaneous xen-related helper programs
 obuild-ver: 1
 
+executable dbgring
+  src-dir: src
+  main: dbgring.ml
+  build-deps: stdext, xenctrl
+
 executable fence
   src-dir: src
   main: fence.ml
