@@ -7,3 +7,8 @@ executable fence
   src-dir: src
   main: fence.ml
   build-deps: xenctrl
+
+executable memory-summary
+  src-dir: src
+  main: memory_summary.ml
+  build-deps: stdext, xenctrl
